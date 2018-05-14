@@ -13,7 +13,6 @@ export default class App extends React.Component {
 
         <View style={styles.header}>
           <Text style={styles.headerText}>- NOTER -</Text>
-          <Text>Bonjour</Text>
         </View>
 
         <ScrollView style={styles.scrollContainer}>
@@ -29,6 +28,10 @@ export default class App extends React.Component {
             underlineColorAndroid='transparent'>
           </TextInput>
         </View>
+
+        <TouchableOpacity style={styles.addButton}>
+          <Text style={styles.addButtonText}>+</Text>
+        </TouchableOpacity>
 
       </View>
 
